@@ -241,4 +241,16 @@ public abstract class ActionBase {
         return (R) context.getAttribute(key.getValue());
     }
 
+
+
+
+    /**
+     * 編集画面を表示する
+     * @throws ServletException
+     * @throws IOException
+     */
+    public void edit() throws ServletException, IOException {
+    }
+      
+
 }
